@@ -1,12 +1,11 @@
-@import './abstracts/mixins';
-@import './abstracts/Variables';
-@import './abstracts/animations';
+@import "./base/typography";
+@import "./abstracts//Variables.scss";
 
-@import './base/base';
-@import './base/typography';
-
-@import './components/header';
-@import './components/slider';
-@import './components/product';
-@import './components/category';
-
+@import "./components/sidebar";
+@import "./components/header";
+@import "./components/realtors";
+@import "./components/features";
+@import "./components/story";
+@import "./components/homes";
+@import "./components/gallery";
+@import "./components/footer";

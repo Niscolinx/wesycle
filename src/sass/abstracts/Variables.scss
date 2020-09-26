@@ -1,15 +1,17 @@
-$primary-color:   #131921;
-$primary-color-1: #333;
-$primary-color-2: #fff;
-$primary-color-3: #a7acb2;
-$primary-color-4: #b9b8b8;
-$primary-color-5: #f1efef;
-$primary-color-6: #232f3e;
+// COLOR VARIABLES
+$color-primary: #c69963;
+$color-primary-dark: #B28451;
 
-$secondary-color:   #febd69;
-$secondary-color-1: #e77600;
-$secondary-color-2: #e4791180;
+$color-secondary: #101d2c;
 
+$color-grey-light-1: #f9f7f6;
+$color-grey-light-2: #aaa;
 
-$border: 1px solid $primary-color-2;
-$border-radius: 3px;
+$color-grey-dark-1: #54483A;
+$color-grey-dark-2: #6D5D4B;
+
+// FONT VARIABLES
+$font-primary: 'Nunito',
+sans-serif;
+$font-display: 'Josefin Sans',
+sans-serif;
