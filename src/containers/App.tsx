@@ -1,12 +1,12 @@
 import React from 'react'
-import Sidebar from './components/Sidebar'
-import Header from './components/Header'
-import Features from './components/Features'
-import Realtors from './components/Realtors'
-import StoryContent from './components/StoryContent'
-import StoryPictures from './components/StoryPictures'
-import Gallery from './components/Gallery'
-import Footer from './components/Footer'
+import Sidebar from '../components/Sidebar'
+import Header from '../components/Header'
+import Features from '../components/Features'
+import Realtors from '../components/Realtors'
+import StoryContent from '../components/StoryContent'
+import StoryPictures from '../components/StoryPictures'
+import Gallery from '../components/Gallery'
+import Footer from '../components/Footer'
 
 function App() {
     return <div className='app'>
@@ -22,10 +22,10 @@ function App() {
       <div className="features">
         <Features/>
       </div>
-      <div className="storyPictures">
+      <div className="story__pictures">
         <StoryPictures/>
       </div>
-      <div className="storyContent">
+      <div className="story__content">
         <StoryContent/>
       </div>
       <div className="gallery">
