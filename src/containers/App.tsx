@@ -7,31 +7,36 @@ import StoryContent from '../components/StoryContent'
 import StoryPictures from '../components/StoryPictures'
 import Gallery from '../components/Gallery'
 import Footer from '../components/Footer'
+import Homes from '../components/Homes'
 
 function App() {
     return <div className='app'>
-      <div className="sidebar">
+      <div className="section-sidebar">
         <Sidebar/>
       </div>
-      <div className="header">
+      <div className="section-header">
         <Header/>
       </div>
-      <div className="realtors">
+    
+      <div className="section-realtors">
         <Realtors/>
       </div>
-      <div className="features">
+      <div className="section-features">
         <Features/>
       </div>
-      <div className="story__pictures">
+      <div className="section-story__pictures">
         <StoryPictures/>
       </div>
-      <div className="story__content">
+      <div className="section-story__content">
         <StoryContent/>
       </div>
-      <div className="gallery">
+      <div className="section-homes">
+        <Homes />
+      </div>
+      <div className="section-gallery">
         <Gallery/>
       </div>
-      <div className="footer">
+      <div className="section-footer">
         <Footer/>
       </div>
 

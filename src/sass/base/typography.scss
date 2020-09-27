@@ -1,0 +1,66 @@
+.app {
+    display: grid;
+    grid-template-rows: 80vh min-content 40vh repeat(3, min-content);
+    grid-template-columns: [sidebar-start] 8rem [sidebar-end full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
+
+}
+
+.section-sidebar {
+    background-color: $color-primary;
+    grid-row: 1 / -1;
+    grid-column: sidebar-start / sidebar-end;
+}
+
+.section-header {
+    background-color: $color-secondary;
+    grid-column: full-start / col-end 6;
+}
+
+.section-realtors {
+    background-color: $color-primary;
+    grid-column: col-start 7 / full-end;
+}
+
+.section-features {
+    background: $color-grey-dark-1;
+    grid-column: center-start / center-end;
+    margin: 15rem 0;
+}
+
+
+.section-story {
+
+
+    &__pictures {
+        background-color: $color-primary-dark;
+        grid-column: full-start / col-end 4;
+    }
+
+    &__content {
+        background-color: $color-secondary;
+        grid-column: col-start 5 / full-end;
+    }
+}
+
+.section-product {
+    background-color: $color-grey-light-1;
+}
+
+.section-homes {
+    background-color: orangered;
+    grid-column: center-start / center-end;
+
+}
+
+
+.section-gallery {
+    background-color: $color-grey-light-2;
+    grid-column: full-start / full-end;
+
+}
+
+.section-footer {
+    background: $color-grey-dark-1;
+    grid-column: full-start / full-end;
+
+}

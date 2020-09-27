@@ -1,3 +1,6 @@
 .features{
-    background: $color-grey-dark-1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    color: white;
 }
