@@ -1,13 +1,20 @@
-.features{
+.features {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
+    padding: 2rem;
     color: white;
 
-    .feature{
+}
 
-        &__icon{
-           
-        }
+.feature {
+
+    &__icon {
+       font-size: 4.5rem;
+        color: $color-primary;
+    }
+
+    &__text{
+        font-size: 1.7rem;
     }
 }
