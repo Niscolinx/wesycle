@@ -1,0 +1,35 @@
+.story {
+
+    &__content {
+        display: grid;
+        align-content: center;
+        justify-items: start;
+        padding: 0 1rem;
+    }
+
+    &__pictures{
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+
+        align-items: center;
+    }
+
+    &__image1{
+        width: 100%;
+        grid-column: 2 / 6;
+        grid-row: 2 / 5;
+    }
+    &__image2{
+        width: 110%;
+        grid-column: 4 / 7;
+        grid-row: 4 / 7;
+        z-index: 10;
+    }
+
+    &__text {
+        margin-bottom: 4rem;
+        font-size: 1.4rem;
+    }
+
+}

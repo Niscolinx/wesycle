@@ -1,4 +1,5 @@
 import React from 'react'
+
 import Sidebar from '../components/Sidebar'
 import Header from '../components/Header'
 import Features from '../components/Features'
@@ -8,6 +9,13 @@ import StoryPictures from '../components/StoryPictures'
 import Gallery from '../components/Gallery'
 import Footer from '../components/Footer'
 import Homes from '../components/Homes'
+import Back from '../images/back.jpg'
+
+const storyStyle = {
+  backgroundImage: 'url('+ Back +')',
+  width: '100%'
+}
+
 
 function App() {
     return <div className='app'>
@@ -24,7 +32,7 @@ function App() {
       <div className="section-features">
         <Features/>
       </div>
-      <div className="section-story__pictures">
+      <div className="section-story__pictures" style={storyStyle}>
         <StoryPictures/>
       </div>
       <div className="section-story__content">
