@@ -12,7 +12,7 @@ import Homes from '../components/Homes'
 import Back from '../images/back.jpg'
 
 const storyStyle = {
-  backgroundImage: 'url('+ Back +')',
+  backgroundImage:  `linear-gradient(rgba(198, 153, 99, .7), rgba(198, 153, 99, .5)), url(${Back})`,
   width: '100%'
 }
 

@@ -30,27 +30,30 @@
 
 .section-story {
 
-
     &__pictures {
-       background-color: $color-primary-dark;
+        display: grid;
+        background-color: $color-primary-dark;
         grid-column: full-start / col-end 4;
 
-        display: grid;
         align-items: center;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        
-        //  grid-template-columns: repeat(6, 1fr);
-        //  grid-template-rows: repeat(6, 1fr);
+
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+
+
     }
 
     &__content {
+        display: grid;
         background-color: $color-grey-light-1;
         grid-column: col-start 5 / full-end;
+        align-content: center;
+        justify-items: start;
 
-        display: flex;
-        padding: 2rem 2vw;
+        padding: 2rem 6vw;
 
     }
 }
@@ -62,6 +65,12 @@
 .section-homes {
     background-color: orangered;
     grid-column: center-start / center-end;
+    margin: 10rem 0;
+
+    display: grid;
+    grid-template-columns: repeat(autofit, minmax(25rem, 1fr));
+    gap: 2rem;
+    background-color: $color-grey-light-1;
 
 }
 
