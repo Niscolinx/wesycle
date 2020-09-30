@@ -79,6 +79,12 @@
     background-color: $color-grey-light-2;
     grid-column: full-start / full-end;
 
+    display: grid;
+    gap: 1rem;
+    padding: 1rem;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(7, 5vw);
+
 }
 
 .section-footer {
