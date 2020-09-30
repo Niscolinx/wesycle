@@ -2,12 +2,19 @@
     background-color: $color-grey-light-1;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-__
+
     &__img{
         width: 100%;
+        grid-column: 1 / -1;
+        grid-row: 1 / 2;
     }
 
     &__like{
+        font-size: 2rem;
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+        justify-self: end;
+        margin: 1rem;
 
     }
 
@@ -25,6 +32,10 @@ __
     &__areas,
     &__price{
 
+    }
+
+    &__btn{
+        grid-column: 1 / -1;
     }
     
 }

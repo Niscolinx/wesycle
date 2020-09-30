@@ -37,7 +37,7 @@ function Homes() {
                     <ImKey className='home__icon'/>
                     <p>$1,300,421</p>
                 </div>
-                <button className='cta'>Contact Realtor</button>
+                <button className='btn home__btn'>Contact Realtor</button>
             </div>
             <div className='home'>
                 <img className='home__img' src={House2} alt='' />
@@ -63,7 +63,7 @@ function Homes() {
                     <ImKey className='home__icon'/>
                     <p>$900,531</p>
                 </div>
-                <button className='cta'>Contact Realtor</button>
+                <button className='btn home__btn'>Contact Realtor</button>
             </div>
             <div className='home'>
                 <img className='home__img' src={House3} alt='' />
@@ -89,7 +89,7 @@ function Homes() {
                     <ImKey className='home__icon'/>
                     <p>$1,690,833</p>
                 </div>
-                <button className='cta'>Contact Realtor</button>
+                <button className='btn home__btn'>Contact Realtor</button>
             </div>
             <div className='home'>
                 <img className='home__img' src={House4} alt='' />
@@ -115,7 +115,7 @@ function Homes() {
                     <ImKey className='home__icon'/>
                     <p>$2,600,923</p>
                 </div>
-                <button className='cta'>Contact Realtor</button>
+                <button className='btn home__btn'>Contact Realtor</button>
             </div>
             <div className='home'>
                 <img className='home__img' src={House5} alt='' />
@@ -141,7 +141,7 @@ function Homes() {
                     <ImKey className='home__icon'/>
                     <p>$1,167,013</p>
                 </div>
-                <button className='cta'>Contact Realtor</button>
+                <button className='btn home__btn'>Contact Realtor</button>
             </div>
             <div className='home'>
                 <img className='home__img' src={House6} alt='' />
@@ -167,7 +167,7 @@ function Homes() {
                     <ImKey className='home__icon'/>
                     <p>$1,552,032</p>
                 </div>
-                <button className='cta'>Contact Realtor</button>
+                <button className='btn home__btn'>Contact Realtor</button>
             </div>
           
         </>
