@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
     return (
-        <nav className='nav'>
+        <ul className='nav'>
             <li className='nav__item'>
                 <a href='#' className='nav__link'>
                     Find your dream home
@@ -33,7 +33,7 @@ function Footer() {
                     Come work with us
                 </a>
             </li>
-        </nav>
+        </ul>
     )
 }
 

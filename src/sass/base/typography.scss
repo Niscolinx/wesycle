@@ -90,7 +90,10 @@
 .section-footer {
     background: $color-grey-dark-1;
     grid-column: full-start / full-end;
+    margin: 7rem 0;
 
+//     display: grid;
+//     grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
 }
 
 %heading {
