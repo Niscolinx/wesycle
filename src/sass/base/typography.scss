@@ -3,15 +3,33 @@
     grid-template-rows: 80vh min-content 50vw repeat(3, min-content);
     grid-template-columns: [sidebar-start] 8rem [sidebar-end full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
 
+    @media only screen and (max-width: 62.5em) {
+        grid-template-rows: 6rem 80vh min-content 50vw repeat(3, min-content);
+        grid-template-columns: [full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
+    }
+
+    @media only screen and (max-width: 62.5em) {
+        grid-template-rows: 6rem calc(100vh - 6rem);
+
+    }
+
 }
 
 .section-sidebar {
     background-color: $color-primary;
     grid-row: 1 / -1;
     grid-column: sidebar-start / sidebar-end;
-    
-    display: flex;
+
+    display: grid;
     justify-content: center;
+
+    @media only screen and (max-width: 62.5em) {
+        grid-row: 1 / 2;
+        grid-column: 1 / -1;
+
+        justify-content: end;
+        align-items: center;
+    }
 }
 
 .section-header {
@@ -26,6 +44,14 @@
     justify-content: center;
     padding: 2rem 6rem;
 
+    @media only screen and (max-width: 62.5em) {
+        grid-column: 1 / -1;
+    }
+
+    @media only screen and (max-width: 62.5em) {
+        padding: 2rem 4rem;
+    }
+
 }
 
 .section-realtors {
@@ -36,6 +62,10 @@
     display: grid;
     align-content: center;
     justify-content: center;
+
+    @media only screen and (max-width: 62.5em) {
+        grid-column: 1 / -1;
+    }
 }
 
 .section-features {
@@ -60,6 +90,10 @@
         grid-template-columns: repeat(6, 1fr);
         grid-template-rows: repeat(6, 1fr);
 
+        @media only screen and (max-width: 62.5em) {
+            grid-column: 1 / -1;
+        }
+
 
     }
 
@@ -71,6 +105,11 @@
         justify-items: start;
 
         padding: 2rem 6vw;
+
+        @media only screen and (max-width: 62.5em) {
+            grid-column: 1 / -1;
+            grid-row: 5 / 6;
+        }
 
     }
 }
