@@ -1,22 +1,50 @@
-.header{
+.header {
 
-    &__logo{
-        height: 4rem;
-        justify-self: start;
+    &__text {
+        font-size: 1rem;
+        font-weight: 400;
+        font-family: $font-display;
+
+        color: $color-primary;
+        text-transform: uppercase;
     }
 
-    &__seen-on{
+    &__logo {
+        height: 3rem;
+        justify-self: center;
+    }
 
-        &__logos{
+    &__seen-on {
+        display: grid;
+        grid-template-columns: 1fr max-content 1fr;
+        align-items: center;
+        column-gap: .5rem;
+        font-size: 1.2rem;
+        color: $color-grey-dark-1;
 
+        &::before,
+        &::after{
+            content: "";
+            background-color: currentColor;
+            height: 2px;
         }
+
     }
 
-    &__seen-on--item{
-        height: 2rem;
+    &__logos {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1rem;
+        justify-content: center;
     }
 
-    &__btn{
+    &__item {
+        height: 1.3rem;
+        justify-self: center;
+        filter: brightness(70%);
+    }
+
+    &__btn {
         align-self: start;
         justify-self: start;
     }
