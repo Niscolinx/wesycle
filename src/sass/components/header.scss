@@ -1,7 +1,7 @@
 .header {
 
     &__text {
-        font-size: 1rem;
+        font-size: 1.4rem;
         font-weight: 400;
         font-family: $font-display;
 
@@ -33,13 +33,15 @@
 
     &__logos {
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(auto-fit, minmax(2rem, 1fr));
         gap: 1rem;
         justify-content: center;
     }
 
     &__item {
         height: 1.3rem;
+        width: 100%;
+        object-fit: contain;
         justify-self: center;
         filter: brightness(70%);
     }
