@@ -10,10 +10,14 @@ import Gallery from '../components/Gallery'
 import Footer from '../components/Footer'
 import Homes from '../components/Homes'
 import Back from '../images/back.jpg'
+import Hero from '../images/hero.jpeg'
 
 const storyStyle = {
   backgroundImage:  `linear-gradient(rgba(198, 153, 99, .7), rgba(198, 153, 99, .5)), url(${Back})`,
   width: '100%'
+}
+const headerStyle = {
+  backgroundImage: `linear-gradient(rgba(16, 29, 44, .90), rgba(16, 29, 44, .90)), url(${Hero})`
 }
 
 
@@ -22,7 +26,7 @@ function App() {
       <div className="section-sidebar">
         <Sidebar/>
       </div>
-      <div className="section-header">
+      <div className="section-header" style={headerStyle}>
         <Header/>
       </div>
     

@@ -1,0 +1,26 @@
+.sidebar-btn{
+    border: none;
+    border-radius: 0;
+
+    background-color: #fff;
+    height: 2px;
+    width: 4rem;
+    margin-top: 4rem;
+
+    &::after,
+    &::before{
+        content: "";
+        display: block;
+        background-color: #fff;
+        height: 2px;
+        width: 4rem;
+    }
+
+    &::after{
+        transform: translateY(-1.5rem);
+    }
+
+    &::before{
+        transform: translateY(1.3rem);
+    }
+}

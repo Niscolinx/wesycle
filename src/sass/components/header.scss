@@ -1,0 +1,23 @@
+.header{
+
+    &__logo{
+        height: 4rem;
+        justify-self: start;
+    }
+
+    &__seen-on{
+
+        &__logos{
+
+        }
+    }
+
+    &__seen-on--item{
+        height: 2rem;
+    }
+
+    &__btn{
+        align-self: start;
+        justify-self: start;
+    }
+}

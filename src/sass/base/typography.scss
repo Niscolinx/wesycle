@@ -9,11 +9,23 @@
     background-color: $color-primary;
     grid-row: 1 / -1;
     grid-column: sidebar-start / sidebar-end;
+    
+    display: flex;
+    justify-content: center;
 }
 
 .section-header {
     background-color: $color-secondary;
     grid-column: full-start / col-end 6;
+
+    display: grid;
+    grid-template-columns: max-content;
+    grid-template-rows: 1fr min-content 4rem 1fr;
+    row-gap: 1.5rem;
+    background-size: cover;
+    justify-content: center;
+    padding: 6rem;
+    padding-top: 2rem;
 }
 
 .section-realtors {
@@ -88,12 +100,9 @@
 }
 
 .section-footer {
-    background: $color-grey-dark-1;
+    background-color: $color-secondary;
     grid-column: full-start / full-end;
-    margin: 7rem 0;
 
-//     display: grid;
-//     grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
 }
 
 %heading {
@@ -103,6 +112,10 @@
 
 .heading-1 {
     @extend %heading;
+
+    font-size: 3rem;
+    color: $color-grey-light-1;
+    line-height: 1;
 }
 
 .heading-2 {
@@ -149,6 +162,7 @@
     color: #fff;
     border: none;
     transition: all .2s;
+    font-family: $font-display;
 
     &:hover {
         background-color: $color-primary-dark;
