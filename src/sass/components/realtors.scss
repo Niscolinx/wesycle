@@ -1,0 +1,26 @@
+.realtors__heading{
+
+}
+
+.realtor{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    &__img{
+        width: 50%;
+        border-radius: 50%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        grid-row: 1 / span 2;
+        margin-right: -2rem;
+    }
+
+    &__name{
+        color: $color-grey-light-1;
+    }
+
+    &__house{
+        color: $color-grey-light-2;
+    }
+}

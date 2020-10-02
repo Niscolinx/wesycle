@@ -20,17 +20,25 @@
 
     display: grid;
     grid-template-columns: max-content;
-    grid-template-rows: 2fr min-content 4rem 1fr;
+    grid-template-rows: 2fr min-content 4rem 2fr;
     row-gap: 1rem;
     background-size: cover;
     justify-content: center;
-    padding: 6rem;
-    padding-top: 2rem;
+    padding: 2rem 6rem;
+
 }
 
 .section-realtors {
-    background-color: $color-primary;
+    background-color: $color-secondary;
     grid-column: col-start 7 / full-end;
+
+    display: grid;
+    padding: 2rem;
+    align-content: center;
+    justify-items: center;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    grid-template-rows: repeat(3, 1fr);
 }
 
 .section-features {
