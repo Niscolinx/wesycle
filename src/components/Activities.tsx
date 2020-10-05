@@ -11,7 +11,7 @@ import {
 function Features() {
     return (
         <div className='features'>
-            <div className='featured'>
+            <div className='feature'>
                 <div className='feature__icon'>
                     <ImSphere />
                 </div>
