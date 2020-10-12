@@ -15,7 +15,7 @@ function Features() {
                 <div className='feature__icon'>
                     <ImSphere />
                 </div>
-                <h4 className='heading-4 heading-4__dark'>orld best luxury homes</h4>
+                <h4 className='heading-4 heading-4__dark'>World best luxury homes</h4>
                 <p className='feature__text'>
                     {' '}
                     rerum neque molestiae, necessitatibus a? Architecto nesciunt
