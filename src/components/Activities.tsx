@@ -10,8 +10,6 @@ import {
 
 function Features() {
 
-    
-
 
     return (
         <div className='features'>
@@ -22,7 +20,7 @@ function Features() {
                 <h4 className='heading-4 heading-4__dark'>World best luxury homes</h4>
                 <p className='feature__text'>
                     {' '}
-                    saepe ratione rem, in the place of good patronage
+                    saepe ratione rem, in the place of good patronage now
                 </p>
             </div>
             <div className='feature'>
