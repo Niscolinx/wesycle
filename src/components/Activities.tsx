@@ -20,7 +20,7 @@ function Features() {
                 <h4 className='heading-4 heading-4__dark'>World best luxury homes</h4>
                 <p className='feature__text'>
                     {' '}
-                    saepe ratio rem, in the pla
+                    saepe ratio rem, in the
                 </p>
             </div>
             <div className='feature'>
