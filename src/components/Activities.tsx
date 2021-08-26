@@ -30,7 +30,7 @@ function Features() {
                 <h4 className='heading-4 heading-4__dark'>Only the best properties</h4>
                 <p className='feature__text'>
                     stinctio id rerum neque molestiae, necessitatibus a?
-                    Architecto nesciunt saepe ratione rem, laboriosam laborum
+                    Architecto neciunt saepe ratione rem, laboriosam laborum
                     coming home
                 </p>
             </div>
