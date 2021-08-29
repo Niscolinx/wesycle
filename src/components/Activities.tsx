@@ -41,7 +41,8 @@ function Features() {
                 </div>
                 <h4 className='heading-4 heading-4__dark'>New homes in one week</h4>
                 <p className='feature__text'>
-                    Quisquam distinctio id rerum neque molestiae, necessitatibus
+                    Quisquam disti
+nctio id rerum neque molestiae, necessitatibus
                     a? Architecto nesciunt saepe ratione rem, laboriosam laborum
                     perspiciatis?
                 </p>
@@ -63,7 +64,7 @@ function Features() {
                 </div>
                 <h4 className='heading-4 heading-4__dark'>All homes in top locations</h4>
                 <p className='feature__text'>
-                    Quisquam distinctio id rerum neque molestiae, necessitatibus
+                    Quisquam distincto id rerum neque molestiae, necessitatibus
                     a? Architecto nesciunt saepe ratione rem, laboriosam laborum
                     perspiciatis?
                 </p>
