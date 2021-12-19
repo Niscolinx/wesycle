@@ -15,7 +15,8 @@ async function connect() {
     }
     await mongoose.disconnect();
   }
-  const db = await mongoose.connect(process.env.MONGODB_URI, {
+  const uri= 'mongodb+srv://wesycle:ZJ0feO7vycWPSUed@cluster0.3ssfo.mongodb.net/database?retryWrites=true&w=majority'
+  const db = await mongoose.connect(process.env.MONGODB_URI || uri, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,

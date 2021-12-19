@@ -13,6 +13,7 @@ import Carousel from 'react-material-ui-carousel';
 import useStyles from '../utils/styles';
 
 export default function Home(props) {
+  console.log({props})
   const classes = useStyles();
   const router = useRouter();
   const { state, dispatch } = useContext(Store);
