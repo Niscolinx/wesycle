@@ -5,6 +5,7 @@ import '../styles/globals.css';
 import { StoreProvider } from '../utils/Store';
 
 function MyApp({ Component, pageProps }) {
+  console.log({Component})
   useEffect(() => {
     const jssStyles = document.querySelector('#jss-server-side');
     if (jssStyles) {
