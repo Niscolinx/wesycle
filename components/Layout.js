@@ -88,6 +88,7 @@ export default function Layout({ title, description, children }) {
 
   const [query, setQuery] = useState('');
   const queryChangeHandler = (e) => {
+console.log('hello') 
     setQuery(e.target.value);
   };
   const submitHandler = (e) => {
